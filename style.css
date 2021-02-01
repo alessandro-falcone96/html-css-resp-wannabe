@@ -22,11 +22,7 @@
 #lezioni {
   text-align: center;
 }
-@media screen and (max-width: 420px) {
-  .left{
-    display: block;
-  }
-}
+
 
 
 /* BLOCCO STEPS */
@@ -81,7 +77,9 @@ img {
 
 /* Modifiche Media Query */
 @media screen and (max-width: 420px) {
-
+  .left{
+    display: block;
+  }
   #lezioni .row,
   #steps .row,
   #why .row {
@@ -98,7 +96,4 @@ img {
     width: 100%;
     margin-top: 50px;
   }
-
-
-
 }
