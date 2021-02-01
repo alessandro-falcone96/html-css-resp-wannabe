@@ -22,6 +22,12 @@
 #lezioni {
   text-align: center;
 }
+@media screen and (max-width: 420px) {
+  .left{
+    display: block;
+  }
+}
+
 
 /* BLOCCO STEPS */
 #steps .row>.left,
@@ -70,4 +76,28 @@ img {
 
 .clear {
   clear: both;
+}
+
+
+/* Modifiche Media Query */
+@media screen and (max-width: 420px) {
+
+  #lezioni .row,
+  #steps .row,
+  #why .row {
+    width: 100%;
+  }
+  #lezioni .row .left,
+  #lezioni .row .right,
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right,
+  #why .row .left,
+  #why .row .central,
+  #why .row.right {
+    width: 100%;
+  }
+
+
+
 }
